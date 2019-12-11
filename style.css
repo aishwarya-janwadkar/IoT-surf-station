@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin:0;padding:0;
+}
+
+ul,li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    line-height: 1.8;
+
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+     background-color: #fff;
+     font-family: 'Domine', sans-serif;
+     font-size: 16px;
+}
+
+header{
+    border-bottom:1px solid #e6e6e6;
+    padding-bottom: 5px;
+}
+
+img {
+  width: 80px;
+}
+
+header a {
+    float: left;
+    display: block;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 20px;
+    color: #000;
+    margin: 0 5px;
+    font-weight: bold;
+    border-left:1px solid #f3f7f9;
+}
+
+header i{
+  color: #5ba5f5;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+header .first,header .last{
+  position: relative;
+  top: 5px;
+}
+
+.site{
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: 'Domine';
+}
+
+.site .sit{
+  color: #6f7273;
+}
+
+.site .date{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 234px;
+}
+
+.main{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.tit{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.biaoti li{
+  width: 30%;
+  float: left;
+  font-size: 13px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+
+.biaoti .second{
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+#windDirectionImage {
+  width: 65px;
+}
+
+.biaoti li span{
+  margin-left: 20px;
+  position: relative;
+  top: -30px;
+}
+
+.content {
+  margin-bottom: 30px;
+}

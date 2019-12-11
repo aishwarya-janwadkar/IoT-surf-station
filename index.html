@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Surf Report</title>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Josefin+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <!-- <header class="clearfix">
+            <ul>
+              <li><a href="##" class="first">FAVORITES</a></li>
+              <li><a href="##"><i class="fa fa-circle" aria-hidden="true"></i>El Porto North<span>3-5<sup>ft</sup></span></a></li>
+              <li><a href="##"><i class="fa fa-circle" aria-hidden="true"></i>Hammerland<span>3-5<sup>ft</sup></span></a></li>
+              <li><a href="##"><i class="fa fa-circle" aria-hidden="true"></i>Venice Beach<span>3-4<sup>ft</sup></span></a></li>
+              <li><a href="##" class="last"><i class="fa fa-plus-circle" aria-hidden="true"></i>ADD FAVORITES</a></li>
+            </ul>
+        </header> -->
+
+        <div class="site clearfix">
+            <div class="fl sit">United States / California</div>
+            <div class="date fl" id="time"></div>
+        </div>
+
+        <h2 class="tit">Long Beach</h2>
+
+        <div class="main">
+            <ul class="biaoti">
+              <li><img src="images/1.png"><span id="windSpeed"></span></li>
+              <li class="second"><img src="images/2.png" id="windDirectionImage"><span id="windDirection"></span></li>
+            </ul>
+            <canvas class="content" id="dataViz"></canvas>
+        </div>
+    </div>
+
+    <div id="dataStream"></div>
+
+  </body>
+
+
+  <script src="js/adaio.js"></script>
+  <script src="js/receive.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/chart.js"></script>
+
+</html>
